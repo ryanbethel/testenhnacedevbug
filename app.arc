@@ -7,27 +7,7 @@ folder public
 
 @http
 get /
-
-# #Waitlist
-# get /waitlist 
-# post /email/interest/add
-# get /email/thank
-
-# #REPL
-# get /playground
-# post /playground
-# post /repl
-
-# #Docs
-# get /docs
-# get /docs/:lang/*
-# get /docs/*
-
-get /testtag
-
-# @events
-# repl-secure-sandbox
-
+get /bug
 
 @plugins
 #arc-plugin-oauth
@@ -61,4 +41,3 @@ prism './node_modules/prismjs/prism.js'
 @aws
 runtime nodejs14.x
 region us-west-2
-profile outsideops
